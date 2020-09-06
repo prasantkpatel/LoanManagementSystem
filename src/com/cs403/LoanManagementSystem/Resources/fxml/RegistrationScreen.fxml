@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="756.0" prefWidth="1057.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cs403.LoanManagementSystem.controllers.RegistrationScreenController">
+	<children>
+		<Pane layoutX="115.0" prefHeight="756.0" prefWidth="236.0" style="-fx-background-color: #ff3737;">
+			<children>
+				<Label layoutX="129.0" layoutY="202.0" textFill="#bc1563">
+					<font>
+						<Font name="Ubuntu Light" size="34.0" />
+					</font>
+				</Label>
+				<ImageView blendMode="MULTIPLY" fitHeight="150.0" fitWidth="111.0" layoutX="70.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../Images/LordGanesh.png" />
+					</image>
+					<effect>
+						<Glow level="0.71" />
+					</effect>
+				</ImageView>
+			</children>
+		</Pane>
+		<AnchorPane layoutX="351.0" prefHeight="756.0" prefWidth="711.0" stylesheets="@../stylesheets/RegistrationScreen.css">
+			<children>
+				<TextField fx:id="firstName" layoutX="125.0" layoutY="115.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<TextField fx:id="lastName" layoutX="499.0" layoutY="113.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<Label alignment="CENTER" layoutX="20.0" layoutY="116.0" prefHeight="16.0" prefWidth="96.0" text="First Name :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label layoutX="106.0" layoutY="104.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<Label alignment="CENTER" layoutX="398.0" layoutY="116.0" text="Last Name :" textAlignment="CENTER" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label layoutX="481.0" layoutY="104.0" text="*" textFill="#f50e0e">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<TextField fx:id="age" layoutX="121.0" layoutY="201.0" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<TextField fx:id="email" layoutX="125.0" layoutY="455.0" prefHeight="26.0" prefWidth="317.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<Label alignment="CENTER" layoutX="64.0" layoutY="206.0" prefHeight="20.0" prefWidth="49.0" text="Age :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label layoutX="101.0" layoutY="194.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<Label layoutX="37.0" layoutY="458.0" text="Email :" textFill="#e8e1e1">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label layoutX="88.0" layoutY="362.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<Label alignment="CENTER" layoutX="14.0" layoutY="530.0" prefHeight="16.0" prefWidth="96.0" text="Password :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label alignment="CENTER" layoutX="386.0" layoutY="206.0" prefHeight="20.0" prefWidth="112.0" text="Income(lpa) :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label alignment="CENTER" layoutX="386.0" layoutY="376.0" prefHeight="20.0" prefWidth="112.0" text="Credit Score :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label alignment="CENTER" layoutX="14.0" layoutY="374.0" prefHeight="16.0" prefWidth="96.0" text="Gender :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<Label alignment="CENTER" layoutX="20.0" layoutY="308.0" prefHeight="20.0" prefWidth="159.0" text="Security Possesed :" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+				</Label>
+				<TextField fx:id="income" layoutX="505.0" layoutY="203.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<Label layoutX="481.0" layoutY="191.0" text="*" textFill="#f50e0e">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<CheckBox fx:id="personal" layoutX="187.0" layoutY="306.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="112.0" text="Personal" textFill="WHITE">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="OPEN_HAND" />
+					</cursor>
+				</CheckBox>
+				<CheckBox fx:id="nonPersonal" layoutX="344.0" layoutY="306.0" mnemonicParsing="false" text="Non-Perosnal" textFill="#fce6e6">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="OPEN_HAND" />
+					</cursor>
+				</CheckBox>
+				<CheckBox fx:id="collateral" layoutX="524.0" layoutY="306.0" mnemonicParsing="false" text="Collateral" textFill="#f2ecec">
+					<font>
+						<Font name="Ubuntu Light" size="17.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="OPEN_HAND" />
+					</cursor>
+				</CheckBox>
+				<MenuButton fx:id="gender" layoutX="106.0" layoutY="371.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" styleClass="menuitem" stylesheets="@../stylesheets/RegistrationScreen.css" text="Choose">
+					<items>
+						<MenuItem fx:id="male" mnemonicParsing="false" onAction="#setMenuButtonText" styleClass="menuitem" text="Male" />
+						<MenuItem fx:id="female" mnemonicParsing="false" onAction="#setMenuButtonText" styleClass="menuitem" text="Female" />
+						<MenuItem fx:id="transgender" mnemonicParsing="false" onAction="#setMenuButtonText" styleClass="menuitem" text="Transgendner" />
+					</items>
+					<cursor>
+						<Cursor fx:constant="OPEN_HAND" />
+					</cursor>
+					<font>
+						<Font name="Ubuntu Medium" size="13.0" />
+					</font>
+				</MenuButton>
+				<Label layoutX="486.0" layoutY="364.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<TextField fx:id="creditScore" layoutX="505.0" layoutY="371.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<Label layoutX="82.0" layoutY="446.0" prefHeight="24.0" prefWidth="10.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<Label layoutX="96.0" layoutY="518.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<Label layoutX="37.0" layoutY="691.0" prefHeight="27.0" prefWidth="202.0" text="Fields marked with (" textAlignment="RIGHT" textFill="#ffb400">
+					<font>
+						<Font name="Ubuntu Light Italic" size="22.0" />
+					</font>
+				</Label>
+				<Label layoutX="232.0" layoutY="691.0" text="*" textFill="#e80606">
+					<font>
+						<Font size="28.0" />
+					</font>
+				</Label>
+				<Label layoutX="251.0" layoutY="691.0" prefHeight="27.0" prefWidth="171.0" text=") are mandatory." textFill="#ffb400">
+					<font>
+						<Font name="Ubuntu Light Italic" size="22.0" />
+					</font>
+				</Label>
+				<PasswordField fx:id="password" layoutX="125.0" layoutY="529.0" prefHeight="26.0" prefWidth="317.0" style="-fx-background-color: #3e3e42; -fx-text-fill: #ffffff;" />
+				<Button layoutX="296.0" layoutY="603.0" mnemonicParsing="false" onMouseClicked="#Register" prefHeight="40.0" prefWidth="112.0" styleClass="btn" stylesheets="@../stylesheets/RegistrationScreen.css" text="Register" textFill="#3e3e42">
+					<font>
+						<Font name="Ubuntu Medium" size="20.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="OPEN_HAND" />
+					</cursor>
+				</Button>
+				<Button layoutX="145.0" layoutY="604.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="38.0" prefWidth="84.0" styleClass="btn" stylesheets="@../stylesheets/RegistrationScreen.css" text="Back" textFill="#3e3e42">
+					<font>
+						<Font name="Ubuntu Medium" size="20.0" />
+					</font>
+					<cursor>
+						<Cursor fx:constant="OPEN_HAND" />
+					</cursor>
+				</Button>
+				<Label layoutX="-31.0" layoutY="14.0" prefHeight="59.0" prefWidth="227.0" text="Dhanprayog">
+					<font>
+						<Font name="Ubuntu Condensed" size="50.0" />
+					</font>
+					<textFill>
+						<LinearGradient endX="1.0" endY="1.0">
+							<stops>
+								<Stop color="#333333" />
+								<Stop color="#333333" offset="0.007407407407407408" />
+								<Stop color="#333333" offset="0.007407407407407408" />
+								<Stop color="#ff3737d4" offset="0.3148148148148148" />
+								<Stop color="#ff3737d4" offset="1.0" />
+							</stops>
+						</LinearGradient>
+					</textFill>
+					<effect>
+						<Glow level="0.68" />
+					</effect>
+				</Label>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

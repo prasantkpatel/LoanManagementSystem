@@ -1,0 +1,45 @@
+.rootAnchor{
+    -fx-background-color:#333333;
+}
+.vbox{
+    -fx-background-color:#e00000;
+}
+.btn{
+    -fx-alignment: baseline-left;
+    -fx-background-color:#e00000;
+}
+.btn:hover{
+    -fx-alignment: baseline-left;
+    -fx-background-color:#9c0000;
+}
+.btn:pressed{
+    -fx-alignment: baseline-left;
+    -fx-background-color:#ff6054;
+}
+.colhead {
+    -fx-background-color: #ff2929;
+}
+.tablebody {
+    -fx-background-color:	#3e3e42;
+}
+.pane{
+    -fx-background-color:#FF3503;
+}
+.profilebtn {
+    -fx-background-color:#333333;
+    -fx-background-radius: 5em;
+}
+.profilebtn:hover {
+    -fx-background-color:#FF3503;
+}
+.profilebtn:pressed {
+    -fx-background-color:#ff6c6c;
+}
+.txtfield {
+    -fx-background-color:#3e3e42;
+    -fx-text-fill:#ffffff;
+}
+.resultfield {
+    -fx-background-color:#333333;
+    -fx-text-fill:#FF3503;
+}

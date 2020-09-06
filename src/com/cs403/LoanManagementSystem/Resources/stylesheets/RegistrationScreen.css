@@ -1,0 +1,28 @@
+.btn{
+    -fx-alignment: baseline-left;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #333333;
+}
+.btn:hover{
+    -fx-alignment: baseline-left;
+    -fx-text-fill: #ffffff;
+    -fx-background-color:#8a0909;
+}
+.btn:pressed{
+    -fx-alignment: baseline-left;
+    -fx-text-fill: #ffffff;
+    -fx-background-color:#f55d5d;
+}
+.menuitem {
+    -fx-padding:5;
+    -fx-background-color:#797878;
+    -fx-text-fill: #ffffff;
+}
+.menuitem:hover {
+    -fx-background-color:#1a1917;
+    -fx-textfill:#ffffff;
+}
+.menuitem:pressed {
+    -fx-background-color:#5f5e5a;
+    -fx-textfill:#ffffff;
+}

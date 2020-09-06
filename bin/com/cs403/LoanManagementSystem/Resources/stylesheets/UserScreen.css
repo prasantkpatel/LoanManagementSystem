@@ -1,0 +1,27 @@
+.rootAnchor{
+    -fx-background-color:#333333;
+}
+.vbox{
+    -fx-background-color:#e00000;
+}
+.btn{
+    -fx-alignment: baseline-left;
+    -fx-background-color:#e00000;
+}
+.btn:hover{
+    -fx-alignment: baseline-left;
+    -fx-background-color:#9c0000;
+}
+.btn:pressed{
+    -fx-alignment: baseline-left;
+    -fx-background-color:#ff6054;
+}
+.colhead {
+    -fx-background-color: #ff2929;
+}
+.tablebody {
+    -fx-background-color:	#3e3e42;
+}
+.pane{
+    -fx-background-color:#ff2929;
+}

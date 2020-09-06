@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0"
+	prefWidth="948.0" style="-fx-background-color: #333333;"
+	xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Pane layoutX="291.0" prefHeight="948.0" prefWidth="200.0"
+			style="-fx-background-color: #ff3737;">
+			<children>
+				<ImageView blendMode="MULTIPLY" fitHeight="165.0"
+					fitWidth="109.0" layoutX="47.0" layoutY="169.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@../Images/LordGanesh.png" />
+					</image>
+				</ImageView>
+				<Label layoutX="-56.0" layoutY="313.0" prefHeight="95.0"
+					prefWidth="336.0" text="Dhanprayog">
+					<font>
+						<Font name="Ubuntu Condensed" size="70.0" />
+					</font>
+					<textFill>
+						<LinearGradient endX="1.0" endY="1.0">
+							<stops>
+								<Stop color="#333333" />
+								<Stop color="#333333" offset="0.007407407407407408" />
+								<Stop color="#ff3737d4" offset="0.007407407407407408" />
+								<Stop color="#333333" offset="0.42592592592592593" />
+								<Stop color="#333333" offset="0.4740740740740741" />
+								<Stop color="#ff3737d4" offset="1.0" />
+							</stops>
+						</LinearGradient>
+					</textFill>
+				</Label>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>

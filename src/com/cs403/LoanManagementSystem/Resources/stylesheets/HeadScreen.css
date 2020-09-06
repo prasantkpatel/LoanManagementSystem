@@ -1,0 +1,31 @@
+.registertxt{
+	-fx-text-fill:	#3e3e42;
+}
+.registertxt:hover {
+	-fx-underline: true;
+	-fx-effect: dropshadow( one-pass-box , #333333 , 8 , 0.0 , 2 , 0 );
+}
+.registertxt:pressed {
+	-fx-text-fill:	#ffffff;
+}
+.pane{
+	-fx-background-color:#ff3838;
+}
+.imgbtn:hover {
+	-fx-effect: dropshadow( one-pass-box , #333333 , 8 , 0.0 , 2 , 0 );
+}
+.root {
+	-fx-background-color:  #333333;
+}
+.btn {
+	-fx-background-color: #333333;
+	-fx-text-fill:#ffffff;
+}
+.btn:hover{
+	-fx-background-color: #ff3838;
+	-fx-text-fill:#ffffff;
+}
+.btn:pressed{
+	-fx-background-color: #fd6c6c;
+	-fx-text-fill:#ffffff;
+}
