@@ -42,7 +42,7 @@ import javafx.scene.control.Button;
 
 public class AdminScreenController implements Initializable {
 
-	public static Admin admin;
+	public static Admin admin = new Admin();
 	@FXML
 	public Button btnLoansApplied;
 	@FXML

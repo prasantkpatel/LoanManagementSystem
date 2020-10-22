@@ -53,8 +53,19 @@ public class RegistrationScreenController {
 
 	Alert alert = new Alert(AlertType.NONE);
 
+	/**
+	 * @throws Exception
+	 * 
+	 *                   Accepts no arguments and performs the task of updating the
+	 *                   database with the credentials of new user after performing
+	 *                   all the necessary checks.
+	 * 
+	 *                   Uncomment to make use of it.
+	 */
 	@FXML
 	public void Register() throws Exception {
+
+		/*
 		User user;
 
 		if (getFirstName() == null || getLastName() == null || getAge() == -1 || getEmail() == null
@@ -72,6 +83,7 @@ public class RegistrationScreenController {
 				e.printStackTrace();
 			}
 		}
+		*/
 
 	}
 

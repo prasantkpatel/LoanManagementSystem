@@ -31,7 +31,7 @@ public class UserController {
 			return Message.USER_NOT_FOUND;
 		}
 	}
-	
+
 	public String adminLogin(String email, String password) throws SQLException {
 		User user = UserManager.getInstance().getUser(email);
 		

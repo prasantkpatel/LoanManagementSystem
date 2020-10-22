@@ -124,7 +124,7 @@ public class UserScreenController implements Initializable {
 	@FXML
 	public TextField resultField;
 
-	public static User user;
+	public static User user = new User();
 
 	public static User getUser() {
 		return user;

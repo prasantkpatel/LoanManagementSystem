@@ -244,12 +244,21 @@ public class DataStore {
 
 		statement.executeUpdate();
 	}
-
+	
+	/**
+	 * This utility is used to connect to a MySQL database as
+	 * User- "username"
+	 * Password- "password"
+	 * Database- "database"
+	 * 
+	 * Uncomment code below to integrate Database connectivity into the app.
+	 */
 	public static void loadData(String database, String username, String password) {
+		/*
 		try {
 			connect = DriverManager.getConnection(database, username, password);
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 }

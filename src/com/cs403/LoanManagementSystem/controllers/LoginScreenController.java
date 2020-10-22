@@ -1,3 +1,7 @@
+/***
+ * 		Alternate versions of userLogin() and adminLogin() are also given in case 
+ * 		the user wants to integrate the code with a database.
+ */
 package com.cs403.LoanManagementSystem.controllers;
 
 import java.util.Optional;
@@ -20,7 +24,25 @@ public class LoginScreenController {
 	public PasswordField password;
 	
 	public Alert alert = new Alert(AlertType.NONE);
+	
+	@FXML
+	public void userLogin() throws Exception {
+		new View().loadUserScreen();
+	}
+	
+	@FXML
+	public void adminLogin() throws Exception {
+		new View().loadAdminScreen();
+	}
 
+	/***
+	 * @throws Exception
+	 * 
+	 * 		userLogin() accepts no argument and does the task of getting the user credentials
+	 * 		from the user login screen and verifying it with the backend database and if found
+	 * 		correct loading the user screen.
+	 */
+/*
 	@FXML
 	public void userLogin() throws Exception {
 		String Email = email.getText();
@@ -55,7 +77,17 @@ public class LoginScreenController {
 			}
 		}
 	}
+*/
+	
+	/***
+	 * @throws Exception
+	 * 
+	 * 		adminLogin() accepts no argument and does the task of getting the admin credentials
+	 * 		from the admin login screen and verifying it with the backend database and if found
+	 * 		correct loading the admin screen.
+	 */
 
+/*
 	@FXML
 	public void adminLogin() throws Exception {
 		String Email = email.getText();
@@ -84,6 +116,7 @@ public class LoginScreenController {
 			alert.showAndWait();
 		}
 	}
+*/
 
 	@FXML
 	public void back() throws Exception {

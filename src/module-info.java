@@ -4,7 +4,6 @@ module loanManagementSystem {
 	requires javafx.base;
 	requires javafx.media;
 	requires javafx.swing;
-	requires javafx.swt;
 	requires javafx.web;
 	requires transitive AnimateFX;
 	requires transitive javafx.graphics;
